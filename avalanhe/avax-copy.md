@@ -11,7 +11,7 @@ This tutorial will guide you through setting up an Avalanche node on  [Latitude)
 To get started, you'll need:
 
 -   A Latitude.sh account
--   A terminal with which to SSH into your latitude server
+-   A terminal client with which to SSH into your latitude server such as [Termius](https://termius.com/)
 
 This tutorial assumes your local machine has a Unix style terminal. If you're on Windows, you'll have to adapt some of the commands used here.
   
