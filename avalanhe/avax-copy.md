@@ -6,14 +6,14 @@ An Avalanche node is a network node that helps to maintain the Avalanche blockch
 ## Introduction
 
 This tutorial will guide you through setting up an Avalanche node on <a href="https://latitude.sh" target="_blank"> Latitude.sh </a>. 
-Latitude.sh provides high performance lighting-fast bare metal servers to ensure that your node is highly secure, available, and accessible.
+Latitude.sh provides high-performance lighting-fast bare metal servers to ensure that your node is highly secure, available, and accessible.
 
 To get started, you'll need:
 
 -   A Latitude.sh account
 -   A terminal with which to SSH into your Latitude.sh machine
 
-This tutorial assumes your local machine has a Unix style terminal. If you're on Windows, you'll have to adapt some of the commands used here.
+This tutorial assumes your local machine has a Unix-style terminal. If you're on Windows, you'll have to adapt some of the commands used here.
   
 
 
@@ -24,9 +24,9 @@ This tutorial assumes your local machine has a Unix style terminal. If you're on
 
 ###  Create a Latitude.sh account
 
-You need to go to the Latitude.sh to create an account.
+You need to go to Latitude.sh to create an account.
 
-- First step is to sign up at [Latitude.sh](https://www.latitude.sh/dashboard/signup) 
+- The first step is to sign up at [Latitude.sh](https://www.latitude.sh/dashboard/signup) 
 <img src="https://i.imgur.com/6c5grrS.png"  width="600">
 
 - Second step is telling us a bit about your team.
