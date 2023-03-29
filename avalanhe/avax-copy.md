@@ -2,7 +2,7 @@
 
 
 An Avalanche node is a network node that helps to maintain the Avalanche blockchain network. In this guide, we will discuss how to create an Avalanche node on <a href="https://latitude.sh" target="_blank"> Latitude.sh </a>
-    <a href="placeholder.com" target="_blank">Opens in new tab</a>
+    <a href="https://placeholder.com" target="_blank">Opens in new tab</a>
   
 ## Introduction
 
