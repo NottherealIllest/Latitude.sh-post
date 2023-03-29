@@ -37,7 +37,7 @@ You will need to go to Latitude.sh to create an account.
 
 ### Verify your Latitude.sh account.
 Now that your account is set up, you need to provide some information to verify it.
-Please click the verify account button to get started.
+<br> Please click the verify account button to get started.
  <img src="https://i.imgur.com/uKDiVQq.png"  width="600">
 
 Please fill add a `payment method`, `govt ID` and a `photo of the credit card` used.
