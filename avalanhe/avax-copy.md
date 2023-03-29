@@ -43,7 +43,7 @@ Please click the verify account button to get started.
 Please fill add a `payment method`, `govt ID` and a `photo of the credit card` used.
   <img src="https://i.imgur.com/XxmPspW.png"  width="600">
 
-Once that has been completed, you need to wait for the team to get back to you, verification can take up to 48 hours.
+Once that has been completed, you will need to wait for the team to respond, <br> Please be patient, as verification can take up to 48 hours.
   <img src="https://i.imgur.com/KLJyAKJ.png"  width="500"> 
 
 
