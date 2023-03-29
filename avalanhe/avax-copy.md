@@ -29,14 +29,14 @@ You need to go to Latitude.sh to create an account.
 - The first step is to sign up at [Latitude.sh](https://www.latitude.sh/dashboard/signup) 
 <img src="https://i.imgur.com/6c5grrS.png"  width="600">
 
-- Second step is telling us a bit about your team.
+- The second dtep is telling us a bit about your team.
 <img src="https://i.imgur.com/lby2jW7.png"  width="600">
 
-- Third step will be to create your first project.
+- The third step will be to create your first project.
 <img src="https://i.imgur.com/uKcNdBZ.png"  width="600">
 
 ### Verify your Latitude.sh account.
-Now that your account is setup, you need to provide some information to verify it.
+Now that your account is set up, you need to provide some information to verify it.
 Please click the verify account button to get started.
   <img src="https://i.imgur.com/uKDiVQq.png"  width="600">
 
@@ -49,7 +49,7 @@ Once that has been completed, you need to wait for the team to get back to you, 
 
 ###  Create your server on the Latitude.sh dashboard
 
-You Latitude.sh account has been verified, now we are ready to configure and deploy your bare metal server! 
+Your Latitude.sh account has been verified, and now we are ready to configure and deploy your bare metal server! 
 Click on `Servers` in the sidebar and the `Create server` button:
 
   <img src="https://i.imgur.com/iO960s4.png"  width="600">
@@ -57,13 +57,14 @@ Click on `Servers` in the sidebar and the `Create server` button:
  
 
 
-For an Avalanche RPC node, the `c3.medium.x86` or `c2.medium.x86` servers are recommended, however the`c1.medium.x86` could work, the server you need is largely dependent on your use case.
+For an Avalanche RPC node, the `c3.medium.x86` or `c2.medium.x86` servers are recommended, however the `c1.medium.x86` could work.
+The server you need is largely dependent on your use case.
 
   
   <img src="https://i.imgur.com/bBPGOP5.png"  width="700">
   
 
-If you do not see the server available, click on another location until it is listed under the `On demand` tab.
+If you do not see the server available, click on another location until it is listed under the `On-demand` tab.
 
 For this tutorial, we will be using a `c3.medium.x86` machine
 
@@ -82,12 +83,12 @@ Options:
 
   
 
-Once you are comfortable with your settings click the `Deploy ->` button. Depending on your configuration, deployment can be as fast as 15 seconds for `Ubuntu 22.04`  or up to 10 minutes for other deployment.
+Once you are comfortable with your settings click the `Deploy ->` button. Depending on your configuration, deployment can be as fast as 15 seconds for `Ubuntu 22.04`  or up to 10 minutes for other deployments.
 
   <img src="https://i.imgur.com/PJDnuFv.png"  width="500">
   
 
-After deployment is complete, click to enter the server save your IP address from your server dashboard, as well as other setting like Username and Password.
+After deployment is complete, click to enter the server and save your IP address from your server dashboard, as well as other settings like `username` and `password`.
 
 ###  Access your server & further steps
 You can get your username and password and all other credentials from clicking the `server` under your project, which can then use to access your Latitude.sh machine from your local machine using a terminal.
