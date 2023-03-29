@@ -6,7 +6,7 @@ An Avalanche node is a network node that helps to maintain the Avalanche blockch
 ## Introduction
 
 This tutorial will guide you through setting up an Avalanche node on <a href="https://latitude.sh" target="_blank"> Latitude.sh </a>. 
-Latitude.sh provides high-performance lighting-fast bare metal servers to ensure that your node is highly secure, available, and accessible.
+<br> Latitude.sh provides high-performance lighting-fast bare metal servers to ensure that your node is highly secure, available, and accessible.
 
 To get started, you'll need:
 
