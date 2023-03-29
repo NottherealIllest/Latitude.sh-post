@@ -36,7 +36,7 @@ You will need to go to Latitude.sh to create an account.
 <img src="https://i.imgur.com/uKcNdBZ.png"  width="600">
 
 ### Verify your Latitude.sh account.
-Now that your account is set up, you need to provide some information to verify it.
+Now that your account is set up, you need to provide some information to verify it. <br>
 Please click the verify account button to get started.
   <img src="https://i.imgur.com/uKDiVQq.png"  width="600">
 
