@@ -29,7 +29,7 @@ You will need to go to Latitude.sh to create an account.
 - The first step is to sign up at [Latitude.sh](https://www.latitude.sh/dashboard/signup) 
 <img src="https://i.imgur.com/6c5grrS.png"  width="600">
 
-- The second step is giving more information on your team.
+- The second step is giving us more information on your team.
 <img src="https://i.imgur.com/lby2jW7.png"  width="600">
 
 - The third step will be to create your first project.
