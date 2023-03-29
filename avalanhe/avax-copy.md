@@ -2,56 +2,62 @@
 
 
 An Avalanche node is a network node that helps to maintain the Avalanche blockchain network. In this guide, we will discuss how to create an Avalanche node on <a href="https://latitude.sh" target="_blank"> Latitude.sh </a>
-   <a href="http://example.com/" target="_blank">example</a>
   
 ## Introduction
 
-This tutorial will guide you through setting up an Avalanche node on <a href="https://latitude.sh" target="_blank"> Latitude.sh </a> . Latitude.sh provides high performance lighting fast bare metal servers to ensure that your node is highly secure, available, and accessible.
+This tutorial will guide you through setting up an Avalanche node on <a href="https://latitude.sh" target="_blank"> Latitude.sh </a>. 
+Latitude.sh provides high performance lighting-fast bare metal servers to ensure that your node is highly secure, available, and accessible.
 
 To get started, you'll need:
 
 -   A Latitude.sh account
--   A terminal client with which to SSH into your latitude server such as [Termius](https://termius.com/)
+-   A terminal with which to SSH into your Latitude.sh machine
 
 This tutorial assumes your local machine has a Unix style terminal. If you're on Windows, you'll have to adapt some of the commands used here.
   
 
 
 
-##  Configuring your server.
+##  Configuring your server
 
   
 
-###  Create a Latitude account
+###  Create a Latitude.sh account
 
-You need to go to the Latitude website to create an account and pass KYC.
+You need to go to the Latitude.sh to create an account.
 
-  
+- First step is to sign up at [Latitude.sh](https://www.latitude.sh/dashboard/signup) 
+<img src="https://i.imgur.com/6c5grrS.png"  width="600">
 
-- Create an account at [Latitude.sh](https://www.latitude.sh/dashboard/signup)
+- Second step is telling us a bit about your team.
+<img src="https://i.imgur.com/lby2jW7.png"  width="600">
 
-- complete your KYC and add a payment method
+- Third step will be to create your first project.
+<img src="https://i.imgur.com/uKcNdBZ.png"  width="600">
 
-  
+### Verify your Latitude.sh account.
+Now that your account is setup, you need to provide some information to verify it.
+Please click the verify account button to get started.
+  <img src="https://i.imgur.com/uKDiVQq.png"  width="600">
 
-###  Create your server on the Latitude dashboard
+Please fill add a `payment method`, `govt ID` and a `photo of the credit card` used.
+  <img src="https://i.imgur.com/XxmPspW.png"  width="600">
 
-  
-
-Once you have your Latitude account setup it’s time to create a project to organize your servers. Give your project a name. The other fields are optional.
-
-<img src="https://i.imgur.com/q9SnlxV.png"  width="500">
+Once that has been completed, you need to wait for the team to get back to you, verification can take up to 48 hours.
+  <img src="https://i.imgur.com/KLJyAKJ.png"  width="500"> 
 
 
-Now we are ready to configure and deploy your bare metal server! Click on `Servers` in the sidebar and the `Create server` button:
+###  Create your server on the Latitude.sh dashboard
+
+You Latitude.sh account has been verified, now we are ready to configure and deploy your bare metal server! 
+Click on `Servers` in the sidebar and the `Create server` button:
+
+  <img src="https://i.imgur.com/iO960s4.png"  width="600">
 
  
 
-  <img src="https://i.imgur.com/efHYdfN.png"  width="500">
-  
-  
 
-For an avalanche RPC node, the `c3.medium.x86` or `c2.medium.x86` servers are recommended, however the`c1.medium.x86` could work, the server you need is largely dependent on your use case.
+For an Avalanche RPC node, the `c3.medium.x86` or `c2.medium.x86` servers are recommended, however the`c1.medium.x86` could work, the server you need is largely dependent on your use case.
 
   
   <img src="https://i.imgur.com/bBPGOP5.png"  width="700">
@@ -59,35 +65,35 @@ For an avalanche RPC node, the `c3.medium.x86` or `c2.medium.x86` servers are re
 
 If you do not see the server available, click on another location until it is listed under the `On demand` tab.
 
-For this tutorial I am using A `c3.medium.x86`
+For this tutorial, we will be using a `c3.medium.x86` machine
 
   
 
 Options:
 
 
-  <img src="https://i.imgur.com/zFNtQAA.png"  width="500">
+  <img src="https://i.imgur.com/BfFxNPB.png"  width="500">
   
 
 
--  `Operating System`: Select `Ubuntu 20.04`
+-  `Operating System`: Select `Ubuntu 22.04`  *for fast deployment*
 
 - All other settings are optional.
 
   
 
-Once you are comfortable with your settings click the `Deploy ->` button. Depending on your configuration, deployment can be as fast as 30 seconds or up to 10 minutes.
+Once you are comfortable with your settings click the `Deploy ->` button. Depending on your configuration, deployment can be as fast as 15 seconds for `Ubuntu 22.04`  or up to 10 minutes for other deployment.
 
   <img src="https://i.imgur.com/PJDnuFv.png"  width="500">
   
 
 After deployment is complete, click to enter the server save your IP address from your server dashboard, as well as other setting like Username and Password.
 
-###  Access your server & further steps.
-you can get your username and password from clicking into the server under your project.
-If this is your first time running a node, to access your server, you need ssh client and terminal such as [Termius](https://termius.com/), once setup, Just click new host, then add the necessary credentials.
+###  Access your server & further steps
+You can get your username and password and all other credentials from clicking the `server` under your project, which can then use to access your Latitude.sh machine from your local machine using a terminal.
 
-Once logged into the your server. Now we’ll need to set up our Avalanche node. To do this, follow the  [Set Up Avalanche Node With Installer](https://docs.avax.network/nodes/build/set-up-node-with-installer)  tutorial which automates the installation process. 
+After gaining access, we’ll need to set up our Avalanche node. To do this, follow the <a href="https://docs.avax.network/nodes/build/set-up-node-with-installer" target="_blank">
+Set Up Avalanche Node With Installer </a>  tutorial which automates the installation process. 
 
 Your AvalancheGo node should now be running and in the process of bootstrapping, which can take a few hours. To check if it's done, you can issue an API call using  `curl`.
 The request is:
@@ -154,4 +160,9 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 
 ## Wrap Up
 
-That's it! You now have an AvalancheGo node running on a latitude server. We recommend setting up  [node monitoring](https://docs.avax.network/nodes/maintain/setting-up-node-monitoring) for your AvalancheGo node.  If you have feedback on this tutorial, or anything else, send us an [Email](mailto:Habeeb.bombata@latitude.sh).
+That's it! You now have an AvalancheGo node running on a Latitude.sh machine. We recommend setting up  [node monitoring](https://docs.avax.network/nodes/maintain/setting-up-node-monitoring) for your AvalancheGo node.  If you have feedback on this tutorial, or anything else, please let us know.
+
+
+`Author`
+Bombata Habeeb
+*Habeeb.bombata@latitude.sh*
