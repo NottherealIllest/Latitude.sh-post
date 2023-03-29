@@ -92,7 +92,7 @@ Once you are comfortable with your settings click the `Deploy ->` button. Depend
 After deployment is complete, click to enter the server and save your IP address from your server dashboard, as well as other settings like `username` and `password`.
 
 ###  Access your server & further steps
-You can get your username and password and all other credentials by clicking the `server` under your project, we can then use these credentials to access your Latitude.sh machine from your local machine using a terminal.
+You can get your `username` , `password` and all other credentials by clicking the `server` under your project, we can then use these credentials to access your Latitude.sh machine from your local machine using a terminal.
 
 After gaining access, we’ll need to set up our Avalanche node. To do this, follow the <a href="https://docs.avax.network/nodes/build/set-up-node-with-installer" target="_blank">
 Set Up Avalanche Node With Installer </a>  tutorial which automates the installation process. 
