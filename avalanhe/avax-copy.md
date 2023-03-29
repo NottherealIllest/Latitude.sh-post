@@ -24,7 +24,7 @@ This tutorial assumes your local machine has a Unix-style terminal. If you're on
 
 ###  Create a Latitude.sh account
 
-You need to go to Latitude.sh to create an account.
+You will need to go to Latitude.sh to create an account.
 
 - The first step is to sign up at [Latitude.sh](https://www.latitude.sh/dashboard/signup) 
 <img src="https://i.imgur.com/6c5grrS.png"  width="600">
