@@ -134,7 +134,7 @@ The response contains the node ID.
 
 `{"jsonrpc":"2.0","result":{"nodeID":"KhDnAoZDW8iRJ3F26iQgK5xXVFMPcaYeu"},"id":1}`
 
-In the above example the node ID is`NodeID-KhDnAoZDW8iRJ3F26iQgK5xXVFMPcaYeu`. Copy your node ID for later. Your node ID is not a secret, so you can just paste it into a text editor.
+In the above example the node ID is `NodeID-KhDnAoZDW8iRJ3F26iQgK5xXVFMPcaYeu`. Copy your node ID for later. Your node ID is not a secret, so you can just paste it into a text editor.
 
 AvalancheGo has other APIs, such as the  [Health API](https://docs.avax.network/apis/avalanchego/apis/health), that may be used to interact with the node. Some APIs are disabled by default. To enable such APIs, modify the ExecStart section of  `/etc/systemd/system/avalanchego.service`  (created during the installation process) to include flags that enable these endpoints. Don't manually enable any APIs unless you have a reason to.
 
