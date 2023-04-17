@@ -91,6 +91,13 @@ Once you are comfortable with your settings click the `Deploy ->` button. Depend
 ###  Access your server & further steps
 After deployment is complete, you can get your `username` , `password` and all other credentials by clicking the `server` under your project, we can then use these credentials to access your Latitude.sh machine from your local machine using a terminal.
 
+> Please note that you need to install the `avalanche node installer
+> script` directly in the server's terminal. One way to obtain access is
+> by utilizing the terminal on your computer, or you could opt for a
+> terminal client such as Termius. The latter is compatible with both
+> Mac and Windows operating systems and offers a free version that
+> operates flawlessly.
+
 After gaining access, we’ll need to set up our Avalanche node. To do this, follow the <a href="https://docs.avax.network/nodes/build/set-up-node-with-installer" target="_blank">
 Set Up Avalanche Node With Installer </a>  tutorial which automates the installation process. 
 
